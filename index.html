@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Gerador de senhas</title>
+</head>
+<body style="background-image: url('img/rainneon.gif'); background-size: cover; background-position: center;">
+    <!-- aqui eu inseri uma imagem/Gif como plano de fundo da pagina por meio do html -->
+    <script src="script.js"></script>
+
+    <div class="caixa">
+      <h1> seja bem vindo ao Gerador de senha 2024!</h1>
+      <textarea id="senha" placeholder="Clique em Gerar senha(s) para que as senhas geradas apareçam aqui "></textarea>
+
+      <table>
+        <th> <div id="button" class="btn1" onclick ="gerarsenha()">Gerar senha(s)</div></th>
+        <th> <a  id="button" class="btn2" onclick ="limpar()">Limpar</a></th>
+      </table>
+        <div class="permitions">
+            <input type="checkbox" class="checkboxes" id="chkMaiusculas" checked>
+            <label for="chkMaiusculas">Permitir letras maiúsculas</label>
+        </div>
+        <div class="permitions">
+            <input type="checkbox" class="checkboxes"  id="chkNumeros" checked>
+            <label for="chkNumeros">Permitir números</label>
+        </div>
+        <div class="permitions">
+            <input type="checkbox" class="checkboxes"  id="chkEspeciais" checked>
+            <label for="chkEspeciais">Permitir caracteres especiais</label>
+        </div>
+        <div class="permitions">
+            <input type="number" class="checknumber"  id="chkCaracteres" checked min="8" max="20" value="8" oninput="limitarValor(this)">
+            <label for="chkNumeros">Nº de caracteres na senha(de 8 a 20)</label>
+        </div>
+        <div class="permitions">
+            <input type="number" class="checknumber"  id="chkSenhas" checked min="1" max="10" value="1" oninput="limitarValor(this)">
+            <label for="chkSenha">Nº de senhas que se deseja gerar(de 1 a 10)</label>
+        </div>
+        <p>  Aviso: As senhas geradas por padrão terão somente letras minúsculas <br>
+            caso não seja permitido o uso de nenhum tipo de caracter.</p>
+            
+    
+    </div>
+
+
+
+
+
+
+    
+</body>
+</html>
