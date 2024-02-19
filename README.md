@@ -7,10 +7,15 @@ este mini projeto tem como objetivo apresentar um Gerador de senhas fortes e ale
 com base no que o usuario exigir em relacao a senha gerada, dando lhe opções como:
 
 -permitir ou nao a inclusao de letras maiusculas;
+
 -permitir ou nao a inclusao de numeros;
+
 -permitir ou nao a inclusao de caracteres especiais;
+
 -definir o tamanho da senha pelo Nº de caracteres, de 8 á 20;
+
 -definir a quantidade que serão geradas de acordo com as definições escolhidas pelo usuario, de 1 á 10.
+
 
 de modo padrão, todas as senhas geradas pela pagina terão a inclusão de letras minusculas*
 
