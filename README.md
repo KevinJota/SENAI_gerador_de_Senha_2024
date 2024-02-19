@@ -2,6 +2,7 @@
 trabalho feito por Kevin J. SENAI 2dm 2024
 
 nota  19/02/2024:
+
 este mini projeto tem como objetivo apresentar um Gerador de senhas fortes e aleatorias
 com base no que o usuario exigir em relacao a senha gerada, dando lhe opções como:
 
